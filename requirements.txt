@@ -1,0 +1,11 @@
+numpy
+scipy
+opencv-contrib-python-headless   # headless avoids Qt conflicts with PyQt5; contrib provides AKAZE/BRISK/KAZE on OpenCV >= 5
+matplotlib
+Pillow                   # EXIF reading
+PyQt5                    # GUI
+pyqtgraph                # GUI 3D viewer
+PyOpenGL                 # GUI 3D viewer
+torch                    # DISK, SuperPoint
+kornia                   # DISK
+lightglue @ git+https://github.com/cvg/LightGlue   # SuperPoint
